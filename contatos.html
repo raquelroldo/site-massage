@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contatos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,900" rel="stylesheet">
+    <link rel="icon" href="img/icon.png">
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html"><h1 class="logo">Massagem Terapêutica</h1></a>
+        <button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <a class="btn-close active"><i class="fa fa-times" aria-hidden="true"></i></a>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>	
+    </header>
+    <main class="contatos">
+        <form action="">
+            <label>Nome </label></br><input name="nome" type="text" placeholder="Digite seu nome"></br>
+            <label>Email </label></br><input name="email" type="email" placeholder="Digite seu email"></br>
+            <label>Deseja receber nossa newsletter</label></br> 
+                Sim <input value="yes" name="newsletter" type="radio"> 
+                Nao <input value="no" name="newsletter" type="radio">
+            </br>
+            <label>Telefone </label></br><input name="telefone" type="text" maxlength="11" placeholder="Digite seu telefone"></br>
+            <label>Deixe sua mensagem </label></br><textarea name="mensagem" rows="5" cols="30"></textarea></br>
+            <label><input type="submit"></label>
+        </form>
+    </main>
+    <footer class="rodape">
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i>
+            <a href="#"><i class="fa fa-twitter"></i>
+            <a href="#"><i class="fa fa-google"></i>
+            <a href="#"><i class="fa fa-instagram"></i>
+            <a href="#"><i class="fa fa-envelope"></i>
+        </div>
+        <p class="copyright">Copyright 2018. Todos direitos reservados</p>
+    </footer>
+    <script src='js/main.js'></script>
+</body>
+</html>

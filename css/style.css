@@ -77,6 +77,9 @@ img{
 	background-color:rgba(255, 255, 0, 0.6);
 
 }
+.active{
+	display: block;
+}
 .banner{
 	width:100%;
 	float:left;
