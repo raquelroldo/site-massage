@@ -25,16 +25,34 @@
         </nav>	
     </header>
     <main class="contatos">
-        <form action="">
-            <label>Nome </label></br><input name="nome" type="text" placeholder="Digite seu nome"></br>
-            <label>Email </label></br><input name="email" type="email" placeholder="Digite seu email"></br>
-            <label>Deseja receber nossa newsletter</label></br> 
-                Sim <input value="yes" name="newsletter" type="radio"> 
-                Nao <input value="no" name="newsletter" type="radio">
-            </br>
-            <label>Telefone </label></br><input name="telefone" type="text" maxlength="11" placeholder="Digite seu telefone"></br>
-            <label>Deixe sua mensagem </label></br><textarea name="mensagem" rows="5" cols="30"></textarea></br>
-            <label><input type="submit"></label>
+        <form id="MyForm" action="form.php" method="POST">
+            <fieldset>
+                <div>
+                    <label for="name">Nome </label><br/>
+                    <input name="nome" type="text" placeholder="Digite seu nome" required autofocus /></br>
+                </div> 
+                <div>   
+                    <label for="email">Email </label></br>
+                    <input name="email" type="email" placeholder="Digite seu email" required /></br>
+                </div>
+                <div>    
+                    <label for="newsletter">Deseja receber nossa newsletter</label></br> 
+                    Sim <input value="yes" name="newsletter" type="radio" /> 
+                    Nao <input value="no" name="newsletter" type="radio" /></br>
+                </div>
+                <div>    
+                    <label for="phone">Telefone </label></br>
+                    <input name="phone" type="text" maxlength="11" placeholder="Digite seu telefone" /></br>
+                </div>
+                <div>    
+                    <label for="mensagem">Deixe sua mensagem </label></br>
+                    <textarea name="mensagem" rows="5" cols="30"></textarea></br>
+                </div>
+                <div>    
+                    <label for="submit"></label>
+                    <input type="submit" value="Go Now" name="submit" />
+                </div>
+            </fieldset>
         </form>
     </main>
     <footer class="rodape">

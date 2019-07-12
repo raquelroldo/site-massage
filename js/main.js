@@ -12,4 +12,5 @@
 			menuList.classList.add('active');	
 		}
 	}
+
 })()
